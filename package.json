@@ -1,0 +1,32 @@
+{
+  "name": "gh-conf-validate",
+  "version": "1.0.0",
+  "description": "Vaidator for gh-conf libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gh-conf/gh-conf-validate.git"
+  },
+  "dependencies": {
+    "@gh-conf/gh-conf-response": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "keywords": [
+    "gh-conf",
+    "github-config",
+    "validator",
+    "github"
+  ],
+  "author": "Arshad Kazmi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gh-conf/gh-conf-validate/issues"
+  },
+  "homepage": "https://github.com/gh-conf/gh-conf-validate#readme"
+}
