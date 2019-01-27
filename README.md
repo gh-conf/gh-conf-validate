@@ -26,7 +26,7 @@ $ npm install gh-conf-validate
 const { validatePath } = require('gh-conf-validate');
 
 // Valid path
-const isValid = validate('./gh-conf-validate');
+const isValid = validatePath('./gh-conf-validate');
 console.log(isValid);
 // Output
 // true
