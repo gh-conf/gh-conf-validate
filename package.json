@@ -1,6 +1,6 @@
 {
-  "name": "gh-conf-validate",
-  "version": "1.0.0",
+  "name": "@gh-conf/gh-conf-validate",
+  "version": "1.0.1",
   "description": "Vaidator for gh-conf libraries",
   "main": "index.js",
   "scripts": {

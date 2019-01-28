@@ -1,4 +1,4 @@
-# gh-validate
+# gh-conf-validate
 
 [![Build Status](https://travis-ci.com/gh-conf/gh-conf-validate.svg?branch=master)](https://travis-ci.com/gh-conf/gh-conf-validate)
 [![Github Repo Size](https://img.shields.io/github/repo-size/gh-conf/gh-conf-validate.svg)](https://github.com/gh-conf/gh-conf-validate)
@@ -17,13 +17,13 @@ Please consider donating, if you like my work
 ## Install
 
 ```
-$ npm install gh-conf-validate
+$ npm install @gh-conf/gh-conf-validate
 ```
 
 ## Usage
 
 ```javascript
-const { validatePath } = require('gh-conf-validate');
+const { validatePath } = require('@gh-conf/gh-conf-validate');
 
 // Valid path
 const isValid = validatePath('./gh-conf-validate');
