@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.com/gh-conf/gh-conf-validate.svg?branch=master)](https://travis-ci.com/gh-conf/gh-conf-validate)
 [![Github Repo Size](https://img.shields.io/github/repo-size/gh-conf/gh-conf-validate.svg)](https://github.com/gh-conf/gh-conf-validate)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contributors](https://img.shields.io/github/contributors/gh-conf/gh-conf-validate.svg)](https://github.com/gh-conf/gh-conf-validate/graphs/contributors)
 [![Commit](https://img.shields.io/github/last-commit/gh-conf/gh-conf-validate.svg)](https://github.com/gh-conf/gh-conf-validate/commits/master)
 
