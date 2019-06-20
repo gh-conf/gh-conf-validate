@@ -1,11 +1,12 @@
 # gh-conf-validate
-
 [![Build Status](https://travis-ci.com/gh-conf/gh-conf-validate.svg?branch=master)](https://travis-ci.com/gh-conf/gh-conf-validate)
 [![Github Repo Size](https://img.shields.io/github/repo-size/gh-conf/gh-conf-validate.svg)](https://github.com/gh-conf/gh-conf-validate)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contributors](https://img.shields.io/github/contributors/gh-conf/gh-conf-validate.svg)](https://github.com/gh-conf/gh-conf-validate/graphs/contributors)
-[![Downloads](https://img.shields.io/github/downloads/gh-conf/gh-conf-validate/total.svg)
+[![Downloads](https://img.shields.io/github/downloads/gh-conf/gh-conf-validate/total.svg)](https://travis-ci.com/gh-conf/gh-conf-validate)
+[![NPM](https://img.shields.io/npm/v/@gh-conf/gh-conf-response.svg)](https://travis-ci.com/gh-conf/gh-conf-validate)
 [![Commit](https://img.shields.io/github/last-commit/gh-conf/gh-conf-validate.svg)](https://github.com/gh-conf/gh-conf-validate/commits/master)
+
 
 Github config libraries validator
 
