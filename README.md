@@ -36,18 +36,18 @@ console.log(isValid);
 
 // Invalid path
 try {
-  validatePath()
+  validatePath();
 } catch (err) {
   console.log(err);
 
   // Output
-  /**
-   * {
-   *   status: 'err',
-   *   message: 'No path input',
-   *   data: {}
-   * }
-   **/
+	/**
+	 * {
+	 *   status: 'err',
+	 *   message: 'No path input',
+	 *   data: {}
+	 * }
+	 **/
 }
 ```
 
