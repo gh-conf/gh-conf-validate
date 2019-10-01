@@ -23,6 +23,10 @@
     "validator",
     "github"
   ],
+  "files": [
+    "index.js",
+    "validate-path.js"
+  ],
   "author": "Arshad Kazmi",
   "license": "MIT",
   "bugs": {
