@@ -26,28 +26,28 @@ $ npm install @gh-conf/gh-conf-validate
 ## Usage
 
 ```javascript
-const { validatePath } = require("@gh-conf/gh-conf-validate");
+const { validatePath } = require('@gh-conf/gh-conf-validate');
 
 // Valid path
-const isValid = validatePath("./gh-conf-validate");
+const isValid = validatePath('./gh-conf-validate');
 console.log(isValid);
 // Output
 // true
 
 // Invalid path
 try {
-	validatePath();
+  validatePath()
 } catch (err) {
-	console.log(err);
+  console.log(err);
 
-	// Output
-	/**
-	 * {
-	 *   status: 'err',
-	 *   message: 'No path input',
-	 *   data: {}
-	 * }
-	 **/
+  // Output
+  /**
+   * {
+   *   status: 'err',
+   *   message: 'No path input',
+   *   data: {}
+   * }
+   **/
 }
 ```
 
