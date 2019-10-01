@@ -1,7 +1,10 @@
 # gh-conf-validate
 
+[![npm (scoped)](https://img.shields.io/npm/v/@gh-conf/gh-conf-validate)](https://www.npmjs.com/package/@gh-conf/gh-conf-validate)
 [![Build Status](https://travis-ci.com/gh-conf/gh-conf-validate.svg?branch=master)](https://travis-ci.com/gh-conf/gh-conf-validate)
 [![Github Repo Size](https://img.shields.io/github/repo-size/gh-conf/gh-conf-validate.svg)](https://github.com/gh-conf/gh-conf-validate)
+[![npm](https://img.shields.io/npm/dt/@gh-conf/gh-conf-validate)](https://www.npmjs.com/package/@gh-conf/gh-conf-validate)
+[![GitHub](https://img.shields.io/github/license/gh-conf/gh-conf-validate)](https://github.com/gh-conf/gh-conf-validate/blob/master/LICENSE)
 [![Contributors](https://img.shields.io/github/contributors/gh-conf/gh-conf-validate.svg)](https://github.com/gh-conf/gh-conf-validate/graphs/contributors)
 [![Commit](https://img.shields.io/github/last-commit/gh-conf/gh-conf-validate.svg)](https://github.com/gh-conf/gh-conf-validate/commits/master)
 
@@ -23,31 +26,29 @@ $ npm install @gh-conf/gh-conf-validate
 ## Usage
 
 ```javascript
-const { validatePath } = require('@gh-conf/gh-conf-validate');
+const { validatePath } = require("@gh-conf/gh-conf-validate");
 
 // Valid path
-const isValid = validatePath('./gh-conf-validate');
+const isValid = validatePath("./gh-conf-validate");
 console.log(isValid);
 // Output
 // true
 
-
 // Invalid path
 try {
-  validatePath()
+	validatePath();
 } catch (err) {
-  console.log(err);
+	console.log(err);
 
-  // Output
-  /**
-   * {
-   *   status: 'err',
-   *   message: 'No path input',
-   *   data: {}
-   * }
-   **/
+	// Output
+	/**
+	 * {
+	 *   status: 'err',
+	 *   message: 'No path input',
+	 *   data: {}
+	 * }
+	 **/
 }
-
 ```
 
 ## Contributing
