@@ -1,7 +1,7 @@
 # gh-conf-validate
 
 [![npm (scoped)](https://img.shields.io/npm/v/@gh-conf/gh-conf-validate)](https://www.npmjs.com/package/@gh-conf/gh-conf-validate)
-[![Build Status](https://travis-ci.com/gh-conf/gh-conf-validate.svg?branch=master)](https://travis-ci.com/gh-conf/gh-conf-validate)
+[![Build](https://github.com/@gh-conf/gh-conf-validate/actions/workflows/nodejs.yml/badge.svg)](https://github.com/@gh-conf/gh-conf-validate/actions/workflows/nodejs.yml)
 [![Github Repo Size](https://img.shields.io/github/repo-size/gh-conf/gh-conf-validate.svg)](https://github.com/gh-conf/gh-conf-validate)
 [![npm](https://img.shields.io/npm/dt/@gh-conf/gh-conf-validate)](https://www.npmjs.com/package/@gh-conf/gh-conf-validate)
 [![GitHub](https://img.shields.io/github/license/gh-conf/gh-conf-validate)](https://github.com/gh-conf/gh-conf-validate/blob/master/LICENSE)
